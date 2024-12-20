@@ -1,0 +1,80 @@
+/*    jaxton  */
+
+body {  
+    font-family: Arial, sans-serif;  
+}  
+  
+/* Header styles */  
+.header {  
+    background-color: lightgrey;  
+    color: blue;
+    text-align: center;  
+    display: flex; /* Use Flexbox layout to ensure that images and titles are on the same line */
+    padding: 20px;  
+  }  
+.left-image {  
+    /* Float the image to the left, but be aware that this may affect the text wrapping effect */  
+    /* Due to the use of Flexbox, a float is not required here */  
+    width: 70px; /* Set the image width to the size you want */  
+    height: auto; /* Maintain the original scale of the image */  
+    margin-right: 10px; /* Add some spacing between images and titles */  
+}  
+/* Navigation styles */  
+.topnav {  
+    display: flex; /* Using Flexbox Layout */  
+    justify-content: center; /* Horizontal neutron element */
+    overflow: hidden;  
+    background-color: #333;  
+  }  
+  .topnav a {  
+    float: left;  
+    display: block;  
+    color: white;  
+    text-align: center;  
+    padding: 14px 16px;  
+    text-decoration: none;  
+  }  
+  .topnav a:hover {  
+    background-color: lightgrey;  
+    color: white;  
+  }  
+  
+
+/* Additional class for hiding elements */  
+.hidden {  
+    display: none;  
+}   
+
+.hero-banner {  
+    /* Add style to Hero banner */  
+    width: 200px; /* Can be adjusted according to demand */  
+    height: 200px; /* Adjust based on image size and page layout */  
+    background-image: url('2.jpg'); /* If the image loading fails, a background image can be used as an alternative */  
+    background-size: cover; /* Ensure that the image covers the entire container*/  
+    background-position: center; /* Center Image  */  
+    text-align: center; /* If you need to add text above to center it */  
+    position: relative; /* If you need to add an overlay or text on top of it */  
+}  
+
+/* If using<img>tags, this style may be necessary to ensure that the image is displayed correctly */  
+.hero-banner img {  
+    width: 200px; /* Make the image width the same as the container width */  
+    height: auto; /* Maintain the scale of the image */  
+}  
+/* Set styles for containers and list items */  
+
+  footer {  
+    background-color: #000000; /* Light gray background */  
+    text-align: center; /* Center the content (but in this case, we have already set it in. footer content） */  
+    padding: 10px 0; /* Bottom and top margins of footer */  
+    font-family: Arial, sans-serif; /* set font */  
+    color: #ffffff; /* text color */  
+}  
+  
+.footer-content p {  
+    margin: 0;  
+}
+
+  
+
+

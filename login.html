@@ -1,0 +1,111 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>About Us</title>  
+<link rel="stylesheet" href="styles.css">  
+</head>  
+<body class="login-page">  
+  
+    <div class="header">
+        <img src="logo.PNG" alt="logo" class="left-image">      
+        <h1>AusInfoTech College</h1>   
+      </div>    
+        <div class="topnav">  
+            <a href="index.html" onclick="showPage('createUserPage')">Create User</a>  
+            <a href="login.html" onclick="showPage('loginPage')">Login</a> 
+            <a href="home.html">Home</a>  
+            <a href="About Us.html">About Us</a>
+            <a href="Contact.html">Contact</a>  
+          </div> 
+    
+
+    <div id="loginPage" class="page">  
+        <!-- Login page -->  
+        <h2>Login</h2>  
+        <div class="page-content">
+        <input type="text" id="loginUsername" placeholder="Enter your English username">  
+        <input type="password" id="loginPassword" placeholder="Enter your numeric password">  
+        <button onclick="login()">Login</button> 
+        </div>
+        <img src="picture4.png" alt="descriptive text" width="500" height="300"> 
+        <footer>  
+            <div class="footer-content">  
+                <!----Jaxton--> 
+            </div>  
+        </footer>   
+
+    </div>  
+
+    <div id="shoppingPage" class="page hidden">  
+        <!-- Shopping page -->  
+<div class="shopping-page">  
+  <!-- Hero banner image -->  
+  <div class="hero-banner">  
+      <img src="2.jpg" alt="Shopping Page Hero Banner">  
+  </div>  
+
+  <h1 class="centered-heading">Shopping Cart</h1>  
+<div class="container">    
+    <div class="product-list">    
+        <!-- Example product, remove from price`$` -->   
+        <div class="product" data-price="100">    
+            <h2>ICT6022 </h2>    
+            <h3>Network Management</h3>  
+            <p class="price">Price: $100<span></span></p>    
+            <input class="quantity" type="number" value="0" min="0">    
+            <button class="add-to-cart">Add to Cart</button>  
+            <button class="remove" data-product-index="0" style="display:none;">Delete</button> <!-- Initially hidden -->  
+        </div>    
+        <!-- Repeat the above div to add other products, just change the data price and text -->    
+        <div class="product" data-price="200">    
+            <h2>ICT6030</h2>    
+            <h3>Software Development</h3>  
+            <p class="price">Price: $200<span></span></p>    
+            <input class="quantity" type="number" value="0" min="0">    
+            <button class="add-to-cart">Add to Cart</button>  
+            <button class="remove" data-product-index="1" style="display:none;">Delete</button> <!-- Initially hidden -->  
+        </div>     
+        <div class="product" data-price="300">    
+            <h2>ICT6045</h2>    
+            <h3>Database Management</h3>  
+            <p class="price">Price: $300<span></span></p>    
+            <input class="quantity" type="number" value="0" min="0">    
+            <button class="add-to-cart">Add to Cart</button>  
+            <button class="remove" data-product-index="2" style="display:none;">Delete</button> <!-- Initially hidden -->  
+        </div>     
+        <div class="product" data-price="400">    
+            <h2>ICT6051</h2>    
+            <h3>Network Security</h3>  
+            <p class="price">Price: $400<span></span></p>   
+            <input class="quantity" type="number" value="0" min="0">    
+            <button class="add-to-cart">Add to Cart</button>  
+            <button class="remove" data-product-index="3" style="display:none;">Delete</button> <!-- Initially hidden -->  
+        </div>    
+        <!-- ... Other products ... -->    
+        <div class="product" data-price="500">    
+            <h2>ICT6068 </h2>    
+            <h3>Information Technology Project Management</h3>  
+            <p class="price">Price: $500<span></span></p>    
+            <input class="quantity" type="number" value="0" min="0">    
+            <button class="add-to-cart">Add to Cart</button>  
+            <button class="remove" data-product-index="4" style="display:none;">Delete</button> <!-- Initially hidden -->  
+        </div>      
+    </div>    
+</div>  
+<div class="cart-summary">    
+    <h2>Shopping Cart Summary</h2>    
+    <div id="product-totals"></div>    
+    <p>The total price of the products in your cart is: $<span id="total-price">0</span></p>    
+    <button id="purchase-button" disabled>Checkout</button>    
+    <button id="clear-cart-button">Clear Cart</button>  
+</div>
+    <script src="script.js"></script>  
+    <footer>  
+        <div class="footer-content">  
+            <!----Jaxton--> 
+        </div>  
+    </footer>   
+</body>  
+</html>

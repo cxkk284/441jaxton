@@ -1,0 +1,172 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>About Us</title>  
+<link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+  
+    <div class="header">
+        <img src="logo.PNG" alt="logo" class="left-image">  
+        <h1>AusInfoTech College</h1>   
+      </div>    
+      <div class="topnav">  
+        <a href="index.html" onclick="showPage('createUserPage')">Create User</a>  
+        <a href="login.html" onclick="showPage('loginPage')">Login</a> 
+        <a href="home.html">Home</a>  
+        <a href="About Us.html">About Us</a>
+        <a href="Contact.html">Contact</a>  
+      </div> 
+          <div class="flex-container">  
+            <div class="photo-with-description">  
+              <h2 class="support-flowchart-title">1. Service Commitment</h2>  
+              <p>We promise to provide professional and enthusiastic service attitude to ensure that every customer can have a satisfactory service experience.</p>  
+              <p>We solemnly promise to uphold the principles of integrity and efficiency, and provide you with the highest quality service until you are completely satisfied.</p>  
+              <img src="picture3.jpg" alt="Support Flowchart Image" class="service-flowchart-image">    
+              <!-- You can add more explanations or pictures about the service process here -->  
+            </div>  
+            <div class="contact-info">  
+                <h3>2. Contact information</h3>  
+                <p>AusInfoTech College is a prestigious educational institution that is dedicated to providing high-quality education and training in the fields of technology and business. While specific details about AusInfoTech College may vary, based on the information available and similar institutions, here is an introduction to what you can expect from this college:
+
+                  Location and Campus
+                  The college is likely located in a prime location, offering students a convenient and accessible learning environment.
+                  The campus facilities are modern and equipped with state-of-the-art technology to support students' learning needs.
+                  Educational Offerings
+                  AusInfoTech College offers a range of programs and courses that cater to students' interests and career aspirations.
+                  These may include programs in technology, business, and other related fields.
+                  The college also offers pathways to higher education, such as university transfer programs and degree completion options.
+                  Values and Culture
+                  The college is committed to fostering a positive and inclusive learning environment.
+                  It emphasizes values such as integrity, innovation, excellence, respect, collaboration, and responsibility.
+                  These values are reflected in the college's teaching methods, student support services, and overall culture.
+                  Student Support Services
+                  AusInfoTech College provides comprehensive student support services to help students succeed academically and personally.
+                  These services may include tutoring, career counseling, and mental health support.
+                  The college also offers opportunities for students to engage in extracurricular activities and build a sense of community.
+                  Industry Connections and Employment Opportunities
+                  The college has strong connections with industry partners, providing students with opportunities for internships, placements, and employment.
+                  These connections help students gain practical experience and build their professional networks.
+                  The college also offers career development programs and workshops to prepare students for the job market.
+                  Accreditation and Recognition
+                  AusInfoTech College is likely accredited by relevant educational authorities and recognized by industry bodies.
+                  This ensures that the college's programs and courses meet high standards of quality and relevance.
+                  Please note that this introduction is based on general information and may not reflect the exact details of AusInfoTech College. For specific information about the college, it is recommended to visit the college's official website or contact the admissions office directly.
+                </p>  
+                <p>Welcome to Our AusInfoTech College Website!</p>  
+                <p>Phone number: <span>+61 3 9876 5432</span></p>  
+                <p>Email address: <a href="mailto:info@ausinfotech.edu.au">info@smarttechrto.com</a></p>  
+              
+                <!-- Add online forms here -->  
+                <form id="productSatisfactionForm">
+                  <label for="customerName">Customer Name:</label>
+                  <input type="text" id="customerName" name="customerName" required>
+                  
+                  <label for="productPurchased">Product Purchased:</label>
+                  <input type="text" id="productPurchased" name="productPurchased" required>
+                  
+                  <label for="satisfactionRating">Satisfaction Rating (1-5):</label>
+                  <input type="number" id="satisfactionRating" name="satisfactionRating" min="1" max="5" required>
+                  
+                  <label for="feedback">Feedback:</label>
+                  <textarea id="feedback" name="feedback" required></textarea>
+                  
+                  <button type="submit">Submit Feedback</button>
+              </form>
+              <form id="customerServiceForm">
+                <label for="customerEmail">Customer Email:</label>
+                <input type="email" id="customerEmail" name="customerEmail" required>
+                
+                <label for="serviceDate">Service Date:</label>
+                <input type="date" id="serviceDate" name="serviceDate" required>
+                
+                <label for="serviceRating">Service Rating (1-5):</label>
+                <input type="number" id="serviceRating" name="serviceRating" min="1" max="5" required>
+                
+                <label for="serviceFeedback">Service Feedback:</label>
+                <textarea id="serviceFeedback" name="serviceFeedback" required></textarea>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
+            <form id="websiteUsageForm">
+              <label for="visitorName">Visitor Name:</label>
+              <input type="text" id="visitorName" name="visitorName" required>
+              
+              <label for="visitDate">Visit Date:</label>
+              <input type="date" id="visitDate" name="visitDate" required>
+              
+              <label for="websiteRating">Website Rating (1-5):</label>
+              <input type="number" id="websiteRating" name="websiteRating" min="1" max="5" required>
+              
+              <label for="websiteFeedback">Website Feedback:</label>
+              <textarea id="websiteFeedback" name="websiteFeedback" required></textarea>
+              
+              <label for="browserInfo">Browser and Device Info (optional):</label>
+              <input type="text" id="browserInfo" name="browserInfo">
+              
+              <button type="submit">Submit Feedback</button>
+          </form>
+          <form id="marketingFeedbackForm">
+            <label for="participantEmail">Participant Email:</label>
+            <input type="email" id="participantEmail" name="participantEmail" required>
+            
+            <label for="campaignName">Campaign Name:</label>
+            <input type="text" id="campaignName" name="campaignName" required>
+            
+            <label for="engagementRating">Engagement Rating (1-5):</label>
+            <input type="number" id="engagementRating" name="engagementRating" min="1" max="5" required>
+            
+            <label for="marketingFeedback">Marketing Feedback:</label>
+            <textarea id="marketingFeedback" name="marketingFeedback" required></textarea>
+            
+            <label for="suggestions">Suggestions for Improvement:</label>
+            <textarea id="suggestions" name="suggestions"></textarea>
+            
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <form id="techSupportForm">
+          <label for="userEmail">User Email:</label>
+          <input type="email" id="userEmail" name="userEmail" required>
+          
+          <label for="deviceName">Device Name:</label>
+          <input type="text" id="deviceName" name="deviceName" required>
+          
+          <label for="issueDescription">Issue Description:</label>
+          <textarea id="issueDescription" name="issueDescription" required></textarea>
+          
+          <label for="troubleshootingSteps">Troubleshooting Steps Taken:</label>
+          <textarea id="troubleshootingSteps" name="troubleshootingSteps"></textarea>
+          
+          <label for="urgency">Urgency Level (1-3):</label>
+          <input type="number" id="urgency" name="urgency" min="1" max="3" required>
+          
+          <button type="submit">Request Support</button>
+      </form>
+      <form id="suggestionsForm">
+        <label for="suggestorName">Your Name:</label>
+        <input type="text" id="suggestorName" name="suggestorName" required>
+        
+        <label for="contactInfo">Contact Info (optional):</label>
+        <input type="text" id="contactInfo" name="contactInfo">
+        
+        <label for="suggestion">Your Suggestion/Idea:</label>
+        <textarea id="suggestion" name="suggestion" required></textarea>
+        
+        <label for="reason">Why Do You Think This is Important?:</label>
+        <textarea id="reason" name="reason" required></textarea>
+        
+        <button type="submit">Submit Suggestion</button>
+    </form>
+                <!-- Display successful submission message (if needed) -->  
+                <div id="successMessage" style="display: none;">Submission successful!</div>  
+              </div>  
+            </div>
+            <footer>  
+              <div class="footer-content">  
+                  <!----Jaxton--> 
+              </div>  
+          </footer>      
+            </body>  
+            </html>
